@@ -13,10 +13,7 @@
 - Other libraries and tools used in the project.
 
 ## Conclusions
-- The model achieved an accuracy of  in melanoma detection.
-- The CNN architecture used proved to be effective in classifying skin images.
-- The model can be a valuable tool in assisting dermatologists with early melanoma detection.
-- Future improvements and enhancements can be considered to make the model even more accurate and efficient.
+- The results from the model with dataset augmentation have shown significant improvement over previous models, achieving a training accuracy of 0.94 at 20 epochs and a validation accuracy of 0.84. However, there are indications of overfitting, as seen by the large fluctuations in the validation loss. To address this issue, we can implement a learning rate scheduler to reduce the learning rate when an accuracy of 0.8 is reached, which may lead to further improvements.
 
 ## Acknowledgements
 - This project was inspired by the need for improved melanoma detection methods.
